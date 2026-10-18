@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#120d36"/>
+      <stop offset="55%" stop-color="#402080"/>
+      <stop offset="100%" stop-color="#090e28"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff3a0"/>
+      <stop offset="45%" stop-color="#ffc83d"/>
+      <stop offset="100%" stop-color="#e88713"/>
+    </linearGradient>
+    <linearGradient id="player" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#54e7ff"/>
+      <stop offset="100%" stop-color="#5865f2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <g fill="none" stroke="#9b83ff" stroke-opacity=".2">
+    <path d="M0 180 L1600 180 M0 300 L1600 300 M0 420 L1600 420 M0 540 L1600 540 M0 660 L1600 660 M0 780 L1600 780 M0 900 L1600 900"/>
+    <path d="M120 0 L120 1000 M320 0 L320 1000 M520 0 L520 1000 M720 0 L720 1000 M920 0 L920 1000 M1120 0 L1120 1000 M1320 0 L1320 1000 M1520 0 L1520 1000"/>
+  </g>
+  <circle cx="1260" cy="300" r="230" fill="#8b5cf6" opacity=".12"/>
+  <circle cx="280" cy="720" r="270" fill="#06b6d4" opacity=".1"/>
+  <g fill="url(#gold)" stroke="#fff1a8" stroke-width="7" filter="url(#glow)">
+    <circle cx="1240" cy="320" r="78"/><circle cx="1430" cy="510" r="55"/>
+    <circle cx="1090" cy="560" r="48"/><circle cx="1320" cy="730" r="66"/>
+    <circle cx="260" cy="350" r="47"/><circle cx="420" cy="510" r="32"/>
+  </g>
+  <g fill="#9b5b09" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">
+    <text x="1240" y="343" font-size="72">$</text>
+    <text x="1430" y="528" font-size="52">$</text>
+    <text x="1090" y="576" font-size="44">$</text>
+    <text x="1320" y="753" font-size="62">$</text>
+    <text x="260" y="366" font-size="44">$</text>
+  </g>
+  <g transform="translate(770 365)">
+    <ellipse cx="0" cy="285" rx="150" ry="26" fill="#050819" opacity=".6"/>
+    <path d="M-90 70 Q-145 100 -130 205 L-105 250 L-55 230 L-60 160 L-35 125" fill="url(#player)" stroke="#b9f7ff" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M90 70 Q145 100 130 205 L105 250 L55 230 L60 160 L35 125" fill="url(#player)" stroke="#b9f7ff" stroke-width="8" stroke-linejoin="round"/>
+    <rect x="-100" y="35" width="200" height="190" rx="58" fill="url(#player)" stroke="#b9f7ff" stroke-width="9"/>
+    <path d="M-65 25 Q-105 -45 -65 -95 Q-20 -135 0 -80 Q30 -140 65 -95 Q105 -45 65 25" fill="#201340" stroke="#d9b8ff" stroke-width="8"/>
+    <circle cx="0" cy="-15" r="78" fill="#9a5b3c" stroke="#ffd1ad" stroke-width="7"/>
+    <path d="M-73 -35 Q-35 -105 20 -80 Q65 -65 75 -30 L60 -45 Q20 -25 -5 -50 Q-35 -15 -73 -35" fill="#201340"/>
+    <circle cx="-27" cy="-10" r="9" fill="#17102d"/><circle cx="28" cy="-10" r="9" fill="#17102d"/>
+    <path d="M-22 25 Q0 43 22 25" fill="none" stroke="#fff0dc" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-60 215 L-70 300 L-15 300 L0 235 L15 300 L70 300 L60 215" fill="#ff4eaa" stroke="#ffc1e3" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M-75 300 L-85 320 L-10 320 L-15 300 M15 300 L10 320 L85 320 L75 300" fill="#f7c65b" stroke="#ffe8a4" stroke-width="7"/>
+  </g>
+  <rect x="150" y="90" width="620" height="54" rx="27" fill="#ffffff" fill-opacity=".1" stroke="#bda8ff" stroke-opacity=".7"/>
+  <text x="460" y="126" fill="#d9ccff" font-family="Arial,sans-serif" font-size="24" font-weight="bold" text-anchor="middle" letter-spacing="7">START.NG ARCADE</text>
+  <text x="150" y="260" fill="#ffffff" font-family="Arial,sans-serif" font-size="105" font-weight="900" letter-spacing="2">COIN</text>
+  <text x="150" y="370" fill="#ffd45c" font-family="Arial,sans-serif" font-size="105" font-weight="900" letter-spacing="2">QUEST</text>
+  <rect x="155" y="415" width="440" height="8" rx="4" fill="#54e7ff"/>
+  <text x="155" y="480" fill="#e8e2ff" font-family="Arial,sans-serif" font-size="30">MOVE. COLLECT. CONQUER.</text>
+  <g font-family="Arial,sans-serif" font-weight="bold" font-size="23">
+    <rect x="155" y="540" width="170" height="60" rx="16" fill="#ffffff" fill-opacity=".1" stroke="#a99aff"/>
+    <text x="240" y="578" fill="#ffffff" text-anchor="middle">WASD / ARROWS</text>
+    <rect x="340" y="540" width="175" height="60" rx="16" fill="#ffffff" fill-opacity=".1" stroke="#a99aff"/>
+    <text x="427" y="578" fill="#ffffff" text-anchor="middle">GRAB COINS</text>
+  </g>
+  <text x="155" y="900" fill="#bdb2ed" font-family="Arial,sans-serif" font-size="22" letter-spacing="5">YOUR NEXT HIGH SCORE STARTS HERE</text>
+</svg>
